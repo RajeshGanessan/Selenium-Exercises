@@ -1,4 +1,5 @@
 import java.text.SimpleDateFormat;
+import java.time.Duration;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
@@ -44,7 +45,7 @@ public class CalenderMakeMyTrip {
 		
 		
 		
-		wait = new WebDriverWait(driver, 5);
+		wait = new WebDriverWait(driver, Duration.ofSeconds(15));
 		WebElement calender = driver.findElement(By.xpath("//label[@for='departure']"));
 		
 		calender.click();

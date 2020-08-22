@@ -19,9 +19,9 @@ public class testcheck {
         System.out.println("ScrollCheck completed");
     }
 
-    public gamePage selectGame(){
-        checkScroll();
-        return new gamePage(driver);
-    }
+//    public gamePage selectGame(){
+//        checkScroll();
+//        return new gamePage(driver);
+//    }
 
 }

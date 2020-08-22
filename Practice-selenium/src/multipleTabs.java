@@ -51,7 +51,7 @@ public class multipleTabs {
 
 		String CurrentWindow = driver.getWindowHandle();
 
-		wait = new WebDriverWait(driver, 45);
+		wait = new WebDriverWait(driver, Duration.ofSeconds(15));
 		wait.until(ExpectedConditions.elementToBeClickable(approveBtn));
 
 		approveBtn.click();

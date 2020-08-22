@@ -1,3 +1,4 @@
+import java.time.Duration;
 import java.util.List;
 import java.util.NoSuchElementException;
 
@@ -27,7 +28,7 @@ public class AutoSuggestiveDropdown {
 
 		String URL = "https://jqueryui.com/autocomplete/";
 
-		wait = new WebDriverWait(driver, 5);
+		wait = new WebDriverWait(driver, Duration.ofSeconds(15));
 
 		driver.get(URL);
 	}
