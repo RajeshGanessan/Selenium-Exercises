@@ -31,7 +31,7 @@ public class calenderExample {
 		DesiredCapabilities cap = new DesiredCapabilities();
 		cap.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
 		driver = new ChromeDriver();
-		driver.get("http://qtest.peopledesk.in/login");
+		driver.get("");
 		driver.manage().window().maximize();
 		Thread.sleep(2000);
 		driver.manage().deleteAllCookies();
